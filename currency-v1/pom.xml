@@ -223,7 +223,7 @@
 							<goal>exec</goal>
 						</goals>
 						<configuration>
-							<executable>./node_modules/mocha/bin/mocha</executable>
+							<executable>node ./node_modules/mocha/bin/mocha</executable>
 							<commandlineArgs>
 								test/unit
 							</commandlineArgs>
@@ -237,7 +237,7 @@
 							<goal>exec</goal>
 						</goals>
 						<configuration>
-							<executable>./node_modules/cucumber/bin/cucumber.js</executable>
+							<executable>node ./node_modules/cucumber/bin/cucumber.js</executable>
 							<commandlineArgs>
 								target/test/integration/features --tags ${api.testtag}
 							</commandlineArgs>
