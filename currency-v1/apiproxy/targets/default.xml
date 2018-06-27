@@ -36,6 +36,9 @@
 				<Step>
 					<Name>AssignMessage.SetTargetResource</Name>
 				</Step>
+				<Step>
+					<Name>Key-Value-Map-Operations-1</Name>
+				</Step>
 			</Request>
 		</Flow>
 	</Flows>
@@ -49,7 +52,7 @@
 	</PostFlow>
 
 	<HTTPTargetConnection>
-		<URL>http://api.fixer.io/{flow.target.resource}</URL>
+		<URL>http://data.fixer.io/{flow.target.resource}?access_key={access_key}</URL>
 	</HTTPTargetConnection>
 
 </TargetEndpoint>
