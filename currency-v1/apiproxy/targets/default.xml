@@ -52,7 +52,7 @@
 	</PostFlow>
 
 	<HTTPTargetConnection>
-		<URL>http://data.fixer.io/{flow.target.resource}?access_key={access_key}</URL>
+		<URL>https://exchangeratesapi.io/api/{flow.target.resource}</URL>
 	</HTTPTargetConnection>
 
 </TargetEndpoint>
