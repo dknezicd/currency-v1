@@ -52,7 +52,7 @@
 	</PostFlow>
 
 	<HTTPTargetConnection>
-		<URL>https://exchangeratesapi.io/api/{flow.target.resource}</URL>
+		<URL>https://frankfurter.app/{flow.target.resource}</URL>
 	</HTTPTargetConnection>
 
 </TargetEndpoint>
