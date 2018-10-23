@@ -18,6 +18,7 @@ Feature: Get Currency Rates Feature
 		Then I should see EUR as the base currency
 		And I should see the rates for <response_date>
 
+
 		Examples:
 			| requested_date | response_date |
 			| 2016-06-14     | 2016-06-14    |
