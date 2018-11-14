@@ -26,7 +26,7 @@ Feature: Get Currency Rates Feature
 			| 2016-06-12     | 2016-06-10    |
 			| 2016-06-11     | 2016-06-10    |
 			| 2016-06-10     | 2016-06-10    |
-			| 2016-06-09     | 2016-06-10    |
+			| 2016-06-09     | 2016-06-09    |
 
 	Scenario: I should be able to set a base currency and exchange day
 		When I request all exchange rates with GBP as the base currency for 2016-05-10
